@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Flutter Files\ShoppingApp\shoppingapp\build\windows\CMakeFiles\99957618865cee82620813b79fb180cc\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Flutter Files\ShoppingApp\shoppingapp\build\windows\CMakeFiles\991ec3f306c00e4c0f9b8524b5a67537\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Flutter Files\ShoppingApp\shoppingapp\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Flutter Files\ShoppingApp\shoppingapp\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7E6854E-72B9-33F3-98F9-7EEE3803D07E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

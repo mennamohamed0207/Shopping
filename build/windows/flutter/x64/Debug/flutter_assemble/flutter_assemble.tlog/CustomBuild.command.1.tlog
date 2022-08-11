@@ -1,0 +1,28 @@
+^D:\FLUTTER FILES\SHOPPINGAPP\SHOPPINGAPP\BUILD\WINDOWS\CMAKEFILES\99957618865CEE82620813B79FB180CC\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter\flutter "PROJECT_DIR=D:\Flutter Files\ShoppingApp\shoppingapp" FLUTTER_ROOT=D:\flutter\flutter "FLUTTER_EPHEMERAL_DIR=D:\Flutter Files\ShoppingApp\shoppingapp\windows\flutter\ephemeral" "PROJECT_DIR=D:\Flutter Files\ShoppingApp\shoppingapp" "FLUTTER_TARGET=D:\Flutter Files\ShoppingApp\shoppingapp\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Flutter Files\ShoppingApp\shoppingapp\.dart_tool\package_config.json" D:/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER FILES\SHOPPINGAPP\SHOPPINGAPP\BUILD\WINDOWS\CMAKEFILES\991EC3F306C00E4C0F9B8524B5A67537\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER FILES\SHOPPINGAPP\SHOPPINGAPP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Flutter Files/ShoppingApp/shoppingapp/windows" "-BD:/Flutter Files/ShoppingApp/shoppingapp/build/windows" --check-stamp-file "D:/Flutter Files/ShoppingApp/shoppingapp/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
